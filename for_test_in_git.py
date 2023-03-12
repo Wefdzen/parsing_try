@@ -6,6 +6,10 @@ class Person:
     def see_fullname(self):
          print(f'Your full name is: {self.first_name} {self.last_name}')
 
+    def say_what_you_goodman(self):
+        print('You good :3')
 
-Man = Person("Dima", "IDk")
-Man.see_fullname()
+
+man = Person("Dima", "IDk")
+man.see_fullname()
+man.say_what_you_goodman()
