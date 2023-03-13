@@ -1,1 +1,4 @@
-print('test commit 1')
+import package1
+
+package1.game()
+
